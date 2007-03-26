@@ -23,7 +23,6 @@ pybdir  = $(datadir)/$(PACKAGE)
 appdir  = $(datadir)/applications
 
 SUBDIRS = 	Pyblio 		\
-		glade		\
 		.		\
 		scripts		\
 		tests		\

@@ -72,9 +72,9 @@ AC_CONFIG_FILES(
 	etc/installer
 	scripts/Makefile
 	tests/Makefile
-	glade/Makefile
 	Pyblio/Makefile
 	Pyblio/GnomeUI/Makefile
+	Pyblio/GnomeUI/glade/Makefile
 	Pyblio/Format/Makefile
 	Pyblio/Output/Makefile
 	Pyblio/ConfDir/Makefile

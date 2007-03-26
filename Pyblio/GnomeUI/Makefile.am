@@ -21,6 +21,8 @@
 
 pybdir = $(datadir)/$(PACKAGE)/Pyblio/GnomeUI
 
+SUBDIRS = glade
+
 EXTRA_DIST = \
 	Medline.py		\
 	Common.py		\

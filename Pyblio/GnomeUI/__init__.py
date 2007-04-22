@@ -54,3 +54,4 @@ del sys, files
 import gtk.glade
 
 gtk.glade.bindtextdomain ("pybliographer", version.localedir)
+

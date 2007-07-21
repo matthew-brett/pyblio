@@ -47,8 +47,6 @@ bin_SCRIPTS = pybliographer
 
 EXTRA_DIST = 	setup-check.py			\
 		COPYING-DOCS			\
-		ChangeLog-1.2			\
-		ChangeLog-1.0			\
 		xmldocs.make			\
 		omf.make			\
 		pybrc.py 			\

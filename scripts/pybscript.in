@@ -12,20 +12,20 @@ else
     pyblio="@bin_dir@/pybliographer"
 fi
 
-invocation=$0
+invocation="$0"
 script="${invocation}.py"
 
-if test -r ${script} ; then
-    exec ${pyblio} --quiet ${script} $*
+if test -r "${script}" ; then
+    exec "${pyblio}" --quiet "${script}" "$@"
     echo "${progname}:error: can't execute the real script"
     exit 1
 fi
 
-progname=`basename ${invocation}`
+progname=`basename "${invocation}"`
 script="${prefix}/${progname}.py"
 
 if test -r ${script} ; then
-    exec ${pyblio} --quiet ${script} $*
+    exec "${pyblio}" --quiet "${script}" "$@"
     echo "${progname}:error: can't execute the real script"
     exit 1
 fi

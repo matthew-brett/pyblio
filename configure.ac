@@ -39,7 +39,14 @@ fi
 dnl Python version
 MINIMUM_VERSION="2.2"
 
+# PACKAGERS
+AC_ARG_ENABLE(depchecks, 
+[  --disable-depchecks     skip dependency checks (while building packages for instance)],,
+ enable_depchecks="yes")
+
 AC_MSG_CHECKING([python requirements])
+
+if test ${enable_depchecks} = "yes" ; then
 
 ${Python} ${srcdir}/setup-check.py ${MINIMUM_VERSION} 2>&5 1>&2
 
@@ -62,6 +69,9 @@ if test $result = 0 ; then
 else
 	AC_MSG_RESULT([no])
 	AC_MSG_ERROR([${Status}])
+fi
+else
+  AC_MSG_RESULT([disabled by user])
 fi
 
 dnl NLS is now hand-managed for python.

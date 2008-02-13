@@ -1,24 +1,21 @@
-# translation of oc.po to Occitan
+# Translation of oc.po to Occitan
 # Occitan translation of Pybliographer.
 # Copyright (C) 2003-2006, 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the pybliographer package.
 #
-# Yannig MARCHEGAY (yannig@marchegay.org) - 2006-2007
-#
-# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2007.
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
 msgid ""
 msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-05-01 10:57+0200\n"
-"PO-Revision-Date: 2007-11-20 14:32+0100\n"
+"POT-Creation-Date: 2008-02-02 21:55+0100\n"
+"PO-Revision-Date: 2007-12-29 14:18+0100\n"
 "Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);"
-"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
@@ -60,7 +57,7 @@ msgstr ""
 #: ../Pyblio/Config.py:258
 #, python-format
 msgid "Element in `%s'"
-msgstr ""
+msgstr "Element dins '%s'"
 
 #: ../Pyblio/Config.py:278
 #, python-format
@@ -75,7 +72,7 @@ msgstr ""
 #: ../Pyblio/Config.py:324
 #, python-format
 msgid "Dictionary (%s, %s)"
-msgstr ""
+msgstr "Diccionari (%s, %s)"
 
 #: ../Pyblio/Config.py:344
 #, python-format
@@ -97,14 +94,14 @@ msgstr ""
 #: ../Pyblio/Fields.py:510
 #, python-format
 msgid "in %s"
-msgstr ""
+msgstr "dins %s"
 
-#: ../Pyblio/Format/BibTeX.py:385 ../Pyblio/Format/BibTeX.py:443
+#: ../Pyblio/Format/BibTeX.py:323 ../Pyblio/Format/BibTeX.py:371
 #, python-format
 msgid "key `%s' is malformed"
 msgstr ""
 
-#: ../Pyblio/Format/BibTeX.py:406 ../Pyblio/Format/BibTeX.py:427
+#: ../Pyblio/Format/BibTeX.py:340 ../Pyblio/Format/BibTeX.py:359
 #, python-format
 msgid "%s:%d: key `%s' already defined"
 msgstr ""
@@ -166,7 +163,7 @@ msgstr "_Ajuda"
 
 #: ../Pyblio/GnomeUI/Document.py:151
 msgid "Recent documents"
-msgstr ""
+msgstr "Documents recents"
 
 #: ../Pyblio/GnomeUI/Document.py:154
 msgid "Open a file"
@@ -183,7 +180,7 @@ msgstr "Enregistrar lo fichièr actiu"
 #: ../Pyblio/GnomeUI/Document.py:161
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
 msgid "Merge With..."
-msgstr ""
+msgstr "Fusionar amb..."
 
 #: ../Pyblio/GnomeUI/Document.py:162
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
@@ -192,12 +189,12 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:170
 msgid "Add a new entry"
-msgstr ""
+msgstr "Apondre una dintrada novèla"
 
 #: ../Pyblio/GnomeUI/Document.py:174
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
 msgid "S_ort..."
-msgstr ""
+msgstr "_Ordenar..."
 
 #: ../Pyblio/GnomeUI/Document.py:175
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
@@ -221,11 +218,11 @@ msgstr "~Camps..."
 #: ../Pyblio/GnomeUI/Document.py:180
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:5
 msgid "Forget all changes"
-msgstr ""
+msgstr "Doblidar totas las modificacions"
 
 #: ../Pyblio/GnomeUI/Document.py:183
 msgid "_Resource"
-msgstr ""
+msgstr "_Ressorga"
 
 #: ../Pyblio/GnomeUI/Document.py:194
 msgid "_About"
@@ -245,6 +242,8 @@ msgid ""
 "can't open file `%s' for writing:\n"
 "%s"
 msgstr ""
+"impossible de dobrir lo fichièr '%s' en escritura :\n"
+"%s"
 
 #: ../Pyblio/GnomeUI/Document.py:420
 #, python-format
@@ -255,7 +254,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:436
 msgid "New database"
-msgstr ""
+msgstr "Basa de donadas novèla"
 
 #: ../Pyblio/GnomeUI/Document.py:444 ../Pyblio/GnomeUI/Document.py:448
 msgid "[no entry]"
@@ -263,22 +262,22 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:445
 msgid "[1 entry]"
-msgstr ""
+msgstr "[1 dintrada]"
 
 #: ../Pyblio/GnomeUI/Document.py:446
 #, python-format
 msgid "[%d entries]"
-msgstr ""
+msgstr "[%d dintradas]"
 
 #: ../Pyblio/GnomeUI/Document.py:449
 #, python-format
 msgid "[%d/1 entry]"
-msgstr ""
+msgstr "[%d/1 dintrada]"
 
 #: ../Pyblio/GnomeUI/Document.py:450
 #, python-format
 msgid "[%d/%d entries]"
-msgstr ""
+msgstr "[%d/%d dintradas]"
 
 #: ../Pyblio/GnomeUI/Document.py:455
 msgid "[modified]"
@@ -294,12 +293,16 @@ msgid ""
 "The database has been modified.\n"
 "Discard changes?"
 msgstr ""
+"La basa de donadas es estada modificada.\n"
+"Anullar las modificacions ?"
 
 #: ../Pyblio/GnomeUI/Document.py:475
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
 msgstr ""
+"La basa de donadas es estada modificada.\n"
+"Enregistrar las modificacions ?"
 
 #: ../Pyblio/GnomeUI/Document.py:492
 msgid ""
@@ -319,7 +322,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:543 ../Pyblio/GnomeUI/Document.py:629
 msgid "Open error"
-msgstr ""
+msgstr "Error de dobertura"
 
 #: ../Pyblio/GnomeUI/Document.py:567
 msgid "Merge status"
@@ -357,6 +360,8 @@ msgid ""
 "Unable to save `%s':\n"
 "%s"
 msgstr ""
+"Impossible d'enregistrar '%s' :\n"
+"%s"
 
 #: ../Pyblio/GnomeUI/Document.py:737
 msgid ""
@@ -366,7 +371,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:752
 msgid "Save As..."
-msgstr ""
+msgstr "Enregistrar coma..."
 
 #: ../Pyblio/GnomeUI/Document.py:758
 #, python-format
@@ -374,6 +379,8 @@ msgid ""
 "The file `%s' already exists.\n"
 "Overwrite it ?"
 msgstr ""
+"Lo fichièr \"%s' existís ja.\n"
+"Lo remplaçar ?"
 
 #: ../Pyblio/GnomeUI/Document.py:765
 #, python-format
@@ -395,21 +402,21 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:913
 msgid "Really remove all the entries ?"
-msgstr ""
+msgstr "Volètz vertadièrament suprimir totas las dintradas ?"
 
 #: ../Pyblio/GnomeUI/Document.py:933
 msgid "Create new entry"
-msgstr ""
+msgstr "Crear una dintrada novèla"
 
 #: ../Pyblio/GnomeUI/Document.py:947
 #, python-format
 msgid "Really edit %d entries ?"
-msgstr ""
+msgstr "Volètz vertadièrament modificar %d dintradas ?"
 
 #: ../Pyblio/GnomeUI/Document.py:993
 #, python-format
 msgid "Remove all the %d entries ?"
-msgstr ""
+msgstr "Suprimir totas las %d dintradas ?"
 
 #: ../Pyblio/GnomeUI/Document.py:995
 #, python-format
@@ -428,6 +435,8 @@ msgid ""
 "Can't connect to LyX:\n"
 "%s"
 msgstr ""
+"Impossible de se connectar a LyX :\n"
+"%s"
 
 #: ../Pyblio/GnomeUI/Document.py:1216
 #, python-format
@@ -435,6 +444,8 @@ msgid ""
 "Can't display documentation:\n"
 "%s"
 msgstr ""
+"Impossible de visualizar la documentacion :\n"
+"%s"
 
 #: ../Pyblio/GnomeUI/Document.py:1224
 msgid "This program is copyrighted under the GNU GPL"
@@ -446,7 +457,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:1236
 msgid "GNOME Translation Team"
-msgstr ""
+msgstr "Còla de revirada de GNOME"
 
 #: ../Pyblio/GnomeUI/Document.py:1241
 msgid "Pybliographer Home Page"
@@ -456,13 +467,13 @@ msgstr ""
 msgid "Last Name, First Name"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:36 ../Pyblio/GnomeUI/Editor.py:1327
+#: ../Pyblio/GnomeUI/Editor.py:36 ../Pyblio/GnomeUI/Editor.py:1292
 #: ../Pyblio/GnomeUI/Fields.py:39 ../Pyblio/GnomeUI/glade/config1.glade.h:14
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:19
 msgid "Text"
 msgstr "Tèxt"
 
-#: ../Pyblio/GnomeUI/Editor.py:133 ../Pyblio/GnomeUI/Editor.py:1010
+#: ../Pyblio/GnomeUI/Editor.py:133 ../Pyblio/GnomeUI/Editor.py:1003
 msgid "Error in native string parsing"
 msgstr ""
 
@@ -512,7 +523,7 @@ msgstr "Seleccionatz un fichièr"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:8
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:6
 msgid "Entry type"
-msgstr ""
+msgstr "Tipe de dintrada"
 
 #: ../Pyblio/GnomeUI/Editor.py:551
 msgid "Key"
@@ -537,9 +548,9 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Fields.py:452
 msgid "Optional"
-msgstr ""
+msgstr "Opcional"
 
-#: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Editor.py:1242
+#: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Editor.py:1207
 msgid "Notes"
 msgstr "Nòtas"
 
@@ -547,49 +558,49 @@ msgstr "Nòtas"
 msgid "Extra"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:907
+#: ../Pyblio/GnomeUI/Editor.py:909
 msgid "Invalid key format"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:915
+#: ../Pyblio/GnomeUI/Editor.py:917
 #, python-format
 msgid "Key `%s' already exists"
-msgstr ""
+msgstr "La clau '%s' existís ja"
 
-#: ../Pyblio/GnomeUI/Editor.py:932
+#: ../Pyblio/GnomeUI/Editor.py:934
 #, python-format
 msgid "The `%s' field contains a non Latin-1 symbol"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:1002
+#: ../Pyblio/GnomeUI/Editor.py:996
 msgid "Your text contains non Latin-1 symbols"
 msgstr ""
 
 #: ../Pyblio/GnomeUI/Editor.py:1023
 msgid "Edit entry"
-msgstr ""
+msgstr "Modificar la dintrada"
 
-#: ../Pyblio/GnomeUI/Editor.py:1037 ../Pyblio/GnomeUI/Editor.py:1108
+#: ../Pyblio/GnomeUI/Editor.py:1037 ../Pyblio/GnomeUI/Editor.py:1102
 msgid "Native Editing"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:1137
+#: ../Pyblio/GnomeUI/Editor.py:1125
 msgid "Standard Editing"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:1264
+#: ../Pyblio/GnomeUI/Editor.py:1229
 msgid "mandatory"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:1330
+#: ../Pyblio/GnomeUI/Editor.py:1295
 msgid "Enter text here"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:1382
+#: ../Pyblio/GnomeUI/Editor.py:1347
 msgid "New Annotation Name"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Editor.py:1388
+#: ../Pyblio/GnomeUI/Editor.py:1353
 msgid "Name of the new annotation:"
 msgstr ""
 
@@ -599,6 +610,8 @@ msgid ""
 "Cannot open URL:\n"
 "%s"
 msgstr ""
+"Impossible de dobrir l'URL :\n"
+"%s"
 
 #: ../Pyblio/GnomeUI/Fields.py:38
 msgid "Authors"
@@ -637,7 +650,7 @@ msgstr "Disponible"
 
 #: ../Pyblio/GnomeUI/Fields.py:310
 msgid "Associated"
-msgstr ""
+msgstr "Associat"
 
 #: ../Pyblio/GnomeUI/Fields.py:321
 msgid "Please, select an entry type from previous page."
@@ -659,12 +672,12 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/FileSelector.py:93 ../Pyblio/GnomeUI/OpenURL.py:61
 msgid " - According to file suffix - "
-msgstr ""
+msgstr " - Segon lo sufix dels fichièrs - "
 
 #. The root of the search tree is the full database
 #: ../Pyblio/GnomeUI/Search.py:71
 msgid "Full database"
-msgstr ""
+msgstr "Basa de donadas plena"
 
 #: ../Pyblio/GnomeUI/Search.py:142
 msgid "internal error during evaluation"
@@ -680,7 +693,7 @@ msgstr ""
 #. These are additional search fields
 #: ../Pyblio/GnomeUI/Sort.py:97
 msgid "[Entry Type]"
-msgstr ""
+msgstr "[Tipe de dintrada]"
 
 #: ../Pyblio/GnomeUI/Sort.py:98
 msgid "[Key Value]"
@@ -705,7 +718,7 @@ msgstr "*"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:2
 msgid "<b>Entry type</b>"
-msgstr ""
+msgstr "<b>Tipe de dintrada</b>"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:3
 msgid "A"
@@ -714,7 +727,7 @@ msgstr "A"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:4
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:2
 msgid "Association"
-msgstr ""
+msgstr "Associacion"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:5
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:3
@@ -743,11 +756,11 @@ msgstr ""
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:12
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:11
 msgid "Name "
-msgstr ""
+msgstr "Nom "
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:13
 msgid "Pybliographer Configuration"
-msgstr ""
+msgstr "Configuracion de Pybliographer"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:17
 msgid "standard fields"
@@ -793,7 +806,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:6
 msgid "Style Selection"
-msgstr ""
+msgstr "Seleccion d'estil"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:2
 msgid "Enter your Medline Query"
@@ -865,11 +878,11 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
 msgid "Contents"
-msgstr "Somari"
+msgstr "Ensenhador"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
 msgid "Open File"
-msgstr "Dubrir fichièr"
+msgstr "Dobrir lo fichièr"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:10
 msgid "Previous Documents"
@@ -877,7 +890,7 @@ msgstr "Documents precedents"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:11
 msgid "Pybliographer"
-msgstr ""
+msgstr "Pybliographer"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:13
 msgid "Save File"
@@ -921,7 +934,7 @@ msgstr "Motiu"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:6
 msgid "Query"
-msgstr "Consulta"
+msgstr ""
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:7
 msgid "Search"
@@ -957,7 +970,7 @@ msgstr ""
 #: ../Pyblio/Open.py:104 ../Pyblio/Open.py:151
 #, python-format
 msgid "File `%s' does not exist"
-msgstr ""
+msgstr "Lo fichièr '%s' existís pas"
 
 #: ../Pyblio/Open.py:115 ../Pyblio/Open.py:162
 #, python-format
@@ -983,7 +996,7 @@ msgstr ""
 #: ../Pyblio/Resource.py:86
 #, python-format
 msgid "Cannot determine mime type for item %s "
-msgstr ""
+msgstr "Impossible de determinar lo tipe mime de l'element %s "
 
 #: ../Pyblio/Resource.py:87
 #, python-format
@@ -995,7 +1008,7 @@ msgstr ""
 
 #: ../Pyblio/Resource.py:98
 msgid "Accessing resource ..."
-msgstr ""
+msgstr "Accès a la ressorga..."
 
 #: ../Pyblio/Resource.py:116
 #, python-format
@@ -1008,6 +1021,8 @@ msgid ""
 "URL: %s\n"
 "Details: %s"
 msgstr ""
+"URL : %s\n"
+"Detalhs : %s"
 
 #: ../Pyblio/Resource.py:137
 msgid "Starting application ..."
@@ -1086,7 +1101,7 @@ msgstr ""
 
 #: ../scripts/pybcheck.py:31
 msgid "usage: pybcheck <file | directory>..."
-msgstr ""
+msgstr "sintaxi : pybcheck <fichièr | repertòri>..."
 
 #: ../scripts/pybcheck.py:60
 #, python-format
@@ -1109,7 +1124,7 @@ msgstr ""
 #: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
-msgstr ""
+msgstr "impossible de trobar las dintradas seguentas : %s"
 
 #: ../scripts/pybconvert.py:29
 msgid "usage: pybconvert <source>..<target> <input> [output]"
@@ -1149,7 +1164,7 @@ msgstr ""
 #: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
 #, python-format
 msgid "can't open `%s': %s"
-msgstr ""
+msgstr "impossible de dobrir '%s' : %s"
 
 #: ../scripts/pybformat.py:97
 #, python-format
@@ -1179,7 +1194,7 @@ msgstr ""
 #: ../scripts/pybtext.py:94
 #, python-format
 msgid "can't find style `%s'"
-msgstr ""
+msgstr "impossible de trobar l'estil '%s'"
 
 #: ../scripts/pybformat.py:155
 #, python-format
@@ -1189,12 +1204,12 @@ msgstr ""
 #: ../scripts/pybformat.py:170
 #, python-format
 msgid "can't open header `%s': %s"
-msgstr ""
+msgstr "impossible de dobrir l'encap '%s' : %s"
 
 #: ../scripts/pybformat.py:178
 #, python-format
 msgid "can't open database: %s"
-msgstr ""
+msgstr "impossible de dobrir la basa de donadas : %s"
 
 #: ../scripts/pybformat.py:193
 #, python-format
@@ -1237,12 +1252,12 @@ msgstr ""
 #: ../scripts/pybtext.py:124
 #, python-format
 msgid "File already exists: `%s'"
-msgstr ""
+msgstr "Lo fichièr existís ja : '%s'"
 
 #: ../scripts/pybtext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
-msgstr ""
+msgstr "Un fichièr qu'a lo meteis nom existís ja : '%s'"
 
 #: ../scripts/pybtext.py:178
 msgid "no citation found"
@@ -1256,14 +1271,13 @@ msgstr ""
 #: ../scripts/pybtext.py:316
 #, python-format
 msgid "can't create `%s'"
-msgstr ""
+msgstr "impossible de crear '%s'"
 
 #: ../scripts/pybtext.py:342
 #, python-format
 msgid "can't remove `%s'"
-msgstr ""
+msgstr "impossible de suprimir '%s'"
 
 #: ../scripts/pybtext.py:344
 msgid "Done"
 msgstr "Terminat"
-

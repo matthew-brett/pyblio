@@ -1,26 +1,26 @@
-# translation of pybliographer.v_1_0_x.ne.po to Nepali
-# translation of pybliographer.v_1_0_x.po to Nepali
+# translation of pybliographer.HEAD.ne.po to Nepali
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Pawan Chitrakar <pawan@mpp.org.np>, 2005.
 # Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2005.
 # Shiva Pokharel <pokharelshiva@hotmail.com>, 2005.
 # Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
-#
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: pybliographer.v_1_0_x.ne\n"
+"Project-Id-Version: pybliographer.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-05-15 12:31+0200\n"
-"PO-Revision-Date: 2006-06-15 15:13+0545\n"
-"Last-Translator: Mahesh subedi <submanesh@hotmail.com>\n"
+"POT-Creation-Date: 2007-10-03 03:37+0100\n"
+"PO-Revision-Date: 2007-11-08 19:52+0545\n"
+"Last-Translator: Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
-"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
@@ -30,7 +30,7 @@ msgstr "चेतावनी: %s आयात गर्न सक्दैन: 
 #: ../Pyblio/Config.py:52
 #, python-format
 msgid "value of `%s' should be of type %s"
-msgstr "`%s' को मुल्य %s किसिमको हुनुपर्दछ"
+msgstr "`%s' को मान %s किसिमको हुनुपर्दछ"
 
 #: ../Pyblio/Config.py:212
 msgid "String"
@@ -38,7 +38,7 @@ msgstr "स्ट्रिङ"
 
 #: ../Pyblio/Config.py:221
 msgid "Boolean"
-msgstr "बोलेन"
+msgstr "बूलियन"
 
 #: ../Pyblio/Config.py:240
 msgid "Integer"
@@ -47,17 +47,17 @@ msgstr "इन्टिजर"
 #: ../Pyblio/Config.py:242
 #, python-format
 msgid "Integer under %d"
-msgstr "%d तल इन्टिजर"
+msgstr "%d भन्दा तलको इन्टिजर"
 
 #: ../Pyblio/Config.py:244
 #, python-format
 msgid "Integer over %d"
-msgstr "%d माथी इन्टिजर"
+msgstr "%d भन्दा माथिको इन्टिजर"
 
 #: ../Pyblio/Config.py:246
 #, python-format
 msgid "Integer between %d and %d"
-msgstr "%d र %d को विचमा इन्टिजर"
+msgstr "%d र %d को बीचमा इन्टिजर"
 
 #: ../Pyblio/Config.py:258
 #, python-format
@@ -79,32 +79,37 @@ msgstr "सूची (%s)"
 msgid "Dictionary (%s, %s)"
 msgstr "शब्दकोश (%s, %s)"
 
+#: ../Pyblio/Config.py:344
+#, python-format
+msgid "warning: could not restore setting %r to %r: %s"
+msgstr "चेतावनी: दिइएको सेटिङ %r बाट %r सम्म पूर्वावस्थामा ल्याउन सकिएन: %s"
+
 #: ../Pyblio/Fields.py:261
 msgid "Illegal year value"
-msgstr "गैरकानुनि वर्ष मान"
+msgstr "गैरकानूनी वर्ष मान"
 
 #: ../Pyblio/Fields.py:265
 msgid "Illegal month value"
-msgstr "गैरकानुनि महिना मान"
+msgstr "गैरकानूनी महिना मान"
 
 #: ../Pyblio/Fields.py:269
 msgid "Illegal day value"
-msgstr "गैरकानुनि दिन मान"
+msgstr "गैरकानूनी दिन मान"
 
 #: ../Pyblio/Fields.py:510
 #, python-format
 msgid "in %s"
 msgstr "%s मा"
 
-#: ../Pyblio/Format/BibTeX.py:385 ../Pyblio/Format/BibTeX.py:443
+#: ../Pyblio/Format/BibTeX.py:323 ../Pyblio/Format/BibTeX.py:371
 #, python-format
 msgid "key `%s' is malformed"
-msgstr "कुञ्जी `%s' गलत निर्माण हो"
+msgstr "कुञ्जी `%s' विकृत गरिएको छ"
 
-#: ../Pyblio/Format/BibTeX.py:406 ../Pyblio/Format/BibTeX.py:427
+#: ../Pyblio/Format/BibTeX.py:340 ../Pyblio/Format/BibTeX.py:359
 #, python-format
 msgid "%s:%d: key `%s' already defined"
-msgstr "%s:%d: कुञ्जी `%s' पहिले नै परिभाषित"
+msgstr "%s:%d: कुञ्जी `%s' पहिलेनै परिभाषित छ"
 
 #: ../Pyblio/GnomeUI/Config.py:147 ../Pyblio/GnomeUI/Fields.py:417
 msgid ""
@@ -112,7 +117,7 @@ msgid ""
 "to be correctly taken into account"
 msgstr ""
 "ठीकसँग लेखामा लिनका लागि \n"
-"केही परिवर्तनहरूलाई पिवलियोग्राफी पुन: सुरु गर्न आवश्यक हुन्छ"
+"केही परिवर्तनहरूलाई पाइब्लियोग्राफिक पुन: सुरु गर्न आवश्यक हुन्छ"
 
 #: ../Pyblio/GnomeUI/Config.py:429
 msgid "Add"
@@ -153,7 +158,7 @@ msgstr "दृश्य"
 
 #: ../Pyblio/GnomeUI/Document.py:148
 msgid "_Cite"
-msgstr "सिट"
+msgstr "साइट"
 
 #: ../Pyblio/GnomeUI/Document.py:149
 msgid "_Settings"
@@ -169,7 +174,7 @@ msgstr "हालको कागजातहरू"
 
 #: ../Pyblio/GnomeUI/Document.py:154
 msgid "Open a file"
-msgstr "एउटा फाइल खोल्नुहोस्"
+msgstr "फाइल खोल्नुहोस्"
 
 #: ../Pyblio/GnomeUI/Document.py:155
 msgid "Open _Location"
@@ -179,41 +184,48 @@ msgstr "स्थान खोल्नुहोस्"
 msgid "Save the current file"
 msgstr "हालको फाइल बचत गर्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Document.py:161 ../glade/pyblio.glade.in.h:8
+#: ../Pyblio/GnomeUI/Document.py:161
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
 msgid "Merge With..."
-msgstr "सँग गाभ्नुहोस्..."
+msgstr "यससँग गाभ्नुहोस्..."
 
-#: ../Pyblio/GnomeUI/Document.py:162 ../glade/pyblio.glade.in.h:7
+#: ../Pyblio/GnomeUI/Document.py:162
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
 msgid "Medline Query..."
 msgstr "मेडलाइन क्वेरी..."
 
 #: ../Pyblio/GnomeUI/Document.py:170
 msgid "Add a new entry"
-msgstr "एउटा नयाँ प्रविष्टि थप्नुहोस्"
+msgstr "नयाँ प्रविष्टि थप्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Document.py:174 ../glade/pyblio.glade.in.h:12
+#: ../Pyblio/GnomeUI/Document.py:174
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
 msgid "S_ort..."
-msgstr "क्रमबद्ध..."
+msgstr "क्रमबद्ध गर्नुहोस्..."
 
-#: ../Pyblio/GnomeUI/Document.py:175 ../glade/pyblio.glade.in.h:2
+#: ../Pyblio/GnomeUI/Document.py:175
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
 msgid "Cite..."
-msgstr "सिट..."
+msgstr "साइट..."
 
 #: ../Pyblio/GnomeUI/Document.py:175
 msgid "Cite key(s)"
-msgstr "सिट कुञ्जी(हरू)"
+msgstr "साइट कुञ्जी(हरू)"
 
-#: ../Pyblio/GnomeUI/Document.py:176 ../glade/pyblio.glade.in.h:6
+#: ../Pyblio/GnomeUI/Document.py:176
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
 msgid "Format..."
 msgstr "ढाँचा..."
 
-#: ../Pyblio/GnomeUI/Document.py:178 ../glade/pyblio.glade.in.h:4
+#: ../Pyblio/GnomeUI/Document.py:178
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:4
 msgid "Fields..."
 msgstr "फाँटहरू..."
 
-#: ../Pyblio/GnomeUI/Document.py:180 ../glade/pyblio.glade.in.h:5
+#: ../Pyblio/GnomeUI/Document.py:180
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:5
 msgid "Forget all changes"
-msgstr "सबै परिवर्तनहरू विर्सनुहोस्"
+msgstr "सबै परिवर्तनहरू बिर्सनुहोस्"
 
 #: ../Pyblio/GnomeUI/Document.py:183
 msgid "_Resource"
@@ -223,15 +235,15 @@ msgstr "संसाधन"
 msgid "_About"
 msgstr "बारेमा"
 
-#: ../Pyblio/GnomeUI/Document.py:243
+#: ../Pyblio/GnomeUI/Document.py:242
 msgid "Quick search"
-msgstr "शिघ्र खोजी"
+msgstr "शीघ्र खोजी"
 
-#: ../Pyblio/GnomeUI/Document.py:317
+#: ../Pyblio/GnomeUI/Document.py:316
 msgid "Unnamed bibliographic database"
-msgstr "गुमनाम ग्रंथसूची डाटाबेस"
+msgstr "नामकरण नगरिएका बिब्लोग्राफिक डाटाबेस"
 
-#: ../Pyblio/GnomeUI/Document.py:400
+#: ../Pyblio/GnomeUI/Document.py:399
 #, python-format
 msgid ""
 "can't open file `%s' for writing:\n"
@@ -240,99 +252,99 @@ msgstr ""
 "लेख्नका लागि `%s' फाइल खोल्न सकेन:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:421
+#: ../Pyblio/GnomeUI/Document.py:420
 #, python-format
 msgid ""
 "Error while parsing `%s':\n"
 "%s"
 msgstr ""
-"`%s' पर्स गरिरहेको बेलामा त्रुटि:\n"
+"`%s' पद वर्णन गर्दा त्रुटि:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:437
+#: ../Pyblio/GnomeUI/Document.py:436
 msgid "New database"
-msgstr "नयाँ तथ्याङ्क् आधार/डाटाबेस"
+msgstr "नयाँ डाटाबेस"
 
-#: ../Pyblio/GnomeUI/Document.py:445 ../Pyblio/GnomeUI/Document.py:449
+#: ../Pyblio/GnomeUI/Document.py:444 ../Pyblio/GnomeUI/Document.py:448
 msgid "[no entry]"
 msgstr "[कुनै प्रविष्टि छैन]"
 
-#: ../Pyblio/GnomeUI/Document.py:446
+#: ../Pyblio/GnomeUI/Document.py:445
 msgid "[1 entry]"
-msgstr "[१ प्रविष्टिन]"
+msgstr "[१ प्रविष्टि]"
 
-#: ../Pyblio/GnomeUI/Document.py:447
+#: ../Pyblio/GnomeUI/Document.py:446
 #, python-format
 msgid "[%d entries]"
-msgstr "[%d प्रविष्टिहरु]"
+msgstr "[%d प्रविष्टि]"
+
+#: ../Pyblio/GnomeUI/Document.py:449
+#, python-format
+msgid "[%d/1 entry]"
+msgstr "[%d/1 प्रविष्टि]"
 
 #: ../Pyblio/GnomeUI/Document.py:450
 #, python-format
-msgid "[%d/1 entry]"
-msgstr "[%d/१ प्रविष्टि]"
-
-#: ../Pyblio/GnomeUI/Document.py:451
-#, python-format
 msgid "[%d/%d entries]"
-msgstr "[%d/%d प्रविष्टिहरु]"
+msgstr "[%d/%d प्रविष्टि]"
 
-#: ../Pyblio/GnomeUI/Document.py:456
+#: ../Pyblio/GnomeUI/Document.py:455
 msgid "[modified]"
 msgstr "[परिमार्जित]"
 
-#: ../Pyblio/GnomeUI/Document.py:459
+#: ../Pyblio/GnomeUI/Document.py:458
 #, python-format
 msgid "view limited to: %s"
-msgstr "मा दृश्य सिमित: %s"
+msgstr "यसमा सीमित गरिएको हेर्नुहोस्: %s"
 
-#: ../Pyblio/GnomeUI/Document.py:472
+#: ../Pyblio/GnomeUI/Document.py:471
 msgid ""
 "The database has been modified.\n"
 "Discard changes?"
 msgstr ""
-"डाटाबेस परिमार्जन गरिएको छ।\n"
-"परिवर्तनहरू छाड्नुहुन्छ ?"
+"डाटाबेस परिमार्जन गरिएको छ ।\n"
+"परिवर्तनहरू छोड्नुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:476
+#: ../Pyblio/GnomeUI/Document.py:475
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
 msgstr ""
-"डाटाबेस परिमार्जन गरिएको छ\n"
+"डाटाबेस परिमार्जन गरिएको छ ।\n"
 "परिवर्तनहरू बचत गर्नुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:493
+#: ../Pyblio/GnomeUI/Document.py:492
 msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes ?"
 msgstr ""
-"पाठ्य आधारलाई बाहिरी तरिकाले परिमार्जित गरियो।\n"
-"परिवर्तन माथी लेख्नुहुन्छ ?"
+"डाटाबेस बाह्य रूपमा परिमार्जन गरिएको छ ।\n"
+"परिवर्तनहरू अधिलेखन गर्नुहुन्छ ?"
 
 #. no result.
-#: ../Pyblio/GnomeUI/Document.py:518
+#: ../Pyblio/GnomeUI/Document.py:521
 msgid "Your query returned no result"
 msgstr "तपाईँको क्वेरीले कुनै नतिजा दिएन"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:528
+#: ../Pyblio/GnomeUI/Document.py:531
 msgid "Merge file"
-msgstr "फाइल गाभ्नुहोस् "
+msgstr "फाइल गाभ्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Document.py:540 ../Pyblio/GnomeUI/Document.py:626
+#: ../Pyblio/GnomeUI/Document.py:543 ../Pyblio/GnomeUI/Document.py:629
 msgid "Open error"
 msgstr "त्रुटि खोल्नुहोस"
 
-#: ../Pyblio/GnomeUI/Document.py:564
+#: ../Pyblio/GnomeUI/Document.py:567
 msgid "Merge status"
 msgstr "स्थिति गाभ्नुहोस्"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:575
+#: ../Pyblio/GnomeUI/Document.py:578
 msgid "Open file"
 msgstr "फाइल खोल्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Document.py:613
+#: ../Pyblio/GnomeUI/Document.py:616
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
@@ -340,8 +352,8 @@ msgstr ""
 "एउटा स्वत: बचत फाइल फेला पर्यो जुन मौलिक फाइल भन्दा नयाँ छ।\n"
 "के तपाईँले यसलाई पूर्वावस्थामा फर्काउन चाहनुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:647 ../Pyblio/GnomeUI/Document.py:788
-#: ../Pyblio/GnomeUI/Document.py:848
+#: ../Pyblio/GnomeUI/Document.py:650 ../Pyblio/GnomeUI/Document.py:791
+#: ../Pyblio/GnomeUI/Document.py:851
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -350,16 +362,16 @@ msgstr ""
 "स्वत: बचत फाइल `%s' हटाउन अक्षम:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:698
+#: ../Pyblio/GnomeUI/Document.py:701
 #, python-format
 msgid ""
 "Error during autosaving:\n"
 "%s"
 msgstr ""
-"स्वत: बचत गर्ने बेलामा त्रुटि:\n"
+"स्वत: बचत गर्दा त्रुटि:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:726
+#: ../Pyblio/GnomeUI/Document.py:729
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -368,19 +380,19 @@ msgstr ""
 "बचत गर्न अक्षम `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:734
+#: ../Pyblio/GnomeUI/Document.py:737
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
 msgstr ""
-"बचत गरिरहेको बेलामा आन्तरिक त्रुटि रहन गयो\n"
-"को रूपमा बचत गर्न कोशिस गर्नुहोस्..."
+"बचत गर्दा एउटा आन्तरीक त्रुटि देखापर्यो\n"
+"यस रूपमा बचत गर्ने प्रयास गर्नुहोस्..."
 
-#: ../Pyblio/GnomeUI/Document.py:749
+#: ../Pyblio/GnomeUI/Document.py:752
 msgid "Save As..."
 msgstr "यस रूपमा बचत गर्नुहोस्..."
 
-#: ../Pyblio/GnomeUI/Document.py:755
+#: ../Pyblio/GnomeUI/Document.py:758
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -389,7 +401,7 @@ msgstr ""
 "फाइल `%s' पहिले नै अवस्थित छ।\n"
 "यसलाई अधिलेखन गर्नुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:762
+#: ../Pyblio/GnomeUI/Document.py:765
 #, python-format
 msgid ""
 "During opening:\n"
@@ -398,11 +410,11 @@ msgstr ""
 "खोली रहेको बेलामा:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:800
+#: ../Pyblio/GnomeUI/Document.py:803
 msgid "Reopen error"
 msgstr "त्रुटि पुन: खोल्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Document.py:873
+#: ../Pyblio/GnomeUI/Document.py:876
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -411,30 +423,30 @@ msgstr ""
 "`%s' भनिने प्रविष्टि पहिले नै अवस्थित छ।\n"
 "यसलाई जे भए पनि पुन: नामकरण गरी थप्नुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:910
+#: ../Pyblio/GnomeUI/Document.py:913
 msgid "Really remove all the entries ?"
 msgstr "साच्चिकै सबै प्रविष्टिहरू हटाउनुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:930
+#: ../Pyblio/GnomeUI/Document.py:933
 msgid "Create new entry"
 msgstr "नयाँ प्रविष्टि सिर्जना गर्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Document.py:944
+#: ../Pyblio/GnomeUI/Document.py:947
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "साच्चिकै %d प्रविष्टिहरू सम्पादन गर्नुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:990
+#: ../Pyblio/GnomeUI/Document.py:993
 #, python-format
 msgid "Remove all the %d entries ?"
-msgstr "%d प्रविष्टिहरू हटाउनुहुन्छ ?"
+msgstr "सबै %d प्रविष्टिहरू हटाउनुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:992
+#: ../Pyblio/GnomeUI/Document.py:995
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "`%s' प्रविष्टिहरू हटाउनुहुन्छ ?"
 
-#: ../Pyblio/GnomeUI/Document.py:1011
+#: ../Pyblio/GnomeUI/Document.py:1014
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
@@ -442,7 +454,7 @@ msgstr ""
 "तपाईँको खोजी पाठले ल्याटिन-१ क्यारेक्टर मात्र\n"
 "समावेश गर्नु पर्दछ"
 
-#: ../Pyblio/GnomeUI/Document.py:1090 ../Pyblio/GnomeUI/Document.py:1098
+#: ../Pyblio/GnomeUI/Document.py:1093 ../Pyblio/GnomeUI/Document.py:1101
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -451,42 +463,42 @@ msgstr ""
 "लिएक्समा जडान गर्न  सकेन:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1213
+#: ../Pyblio/GnomeUI/Document.py:1216
 #, python-format
 msgid ""
 "Can't display documentation:\n"
 "%s"
 msgstr ""
-"कागजातीकरण देखाउन सकेन:\n"
+"मिसिलिकरण प्रदर्शन गर्न सक्दैन:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1221
+#: ../Pyblio/GnomeUI/Document.py:1224
 msgid "This program is copyrighted under the GNU GPL"
-msgstr "यो कार्यक्रमो जिएनयु जिपिए अन्तर्गत रहेर प्रतिलिपिआधिकार गरिएको हो"
+msgstr "यो कार्यक्रम जीएनयू जीपीएल अन्तर्गत रहेर प्रतिलिपिआधिकार गरिएको हो"
 
-#: ../Pyblio/GnomeUI/Document.py:1222
-msgid "Gnome interface to the Pybliographer system."
-msgstr "पिब्लियोग्राफर प्रणालीका लागि जिनोम इन्टरफेस"
+#: ../Pyblio/GnomeUI/Document.py:1225
+msgid "GNOME interface to the Pybliographer system."
+msgstr "पाइब्लियोग्राफर प्रणालीमा जीनोम इन्टरफेस ।"
 
-#: ../Pyblio/GnomeUI/Document.py:1233
-msgid "Gnome Translation Team"
-msgstr "जिनोम नेपाली अनुवाद समूह"
+#: ../Pyblio/GnomeUI/Document.py:1236
+msgid "GNOME Translation Team"
+msgstr "जीनोम अनुवादक समूह"
 
-#: ../Pyblio/GnomeUI/Document.py:1238
+#: ../Pyblio/GnomeUI/Document.py:1241
 msgid "Pybliographer Home Page"
-msgstr "पिव्लियोग्राफर गृह पृष्ठ"
+msgstr "पाइब्लियोग्राफर गृह पृष्ठ"
 
 #: ../Pyblio/GnomeUI/Editor.py:35
 msgid "Last Name, First Name"
 msgstr "अन्तिम नाम, पहिलो नाम"
 
-#: ../Pyblio/GnomeUI/Editor.py:36 ../Pyblio/GnomeUI/Editor.py:1327
-#: ../Pyblio/GnomeUI/Fields.py:39 ../glade/config1.glade.h:14
-#: ../glade/fields1.glade.h:19
+#: ../Pyblio/GnomeUI/Editor.py:36 ../Pyblio/GnomeUI/Editor.py:1292
+#: ../Pyblio/GnomeUI/Fields.py:39 ../Pyblio/GnomeUI/glade/config1.glade.h:14
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:19
 msgid "Text"
 msgstr "पाठ"
 
-#: ../Pyblio/GnomeUI/Editor.py:133 ../Pyblio/GnomeUI/Editor.py:1010
+#: ../Pyblio/GnomeUI/Editor.py:133 ../Pyblio/GnomeUI/Editor.py:1003
 msgid "Error in native string parsing"
 msgstr "मौलिक स्ट्रिङ पद वर्णन गर्दा त्रुटि"
 
@@ -504,15 +516,15 @@ msgstr "वर्ष"
 
 #: ../Pyblio/GnomeUI/Editor.py:355
 msgid "Invalid day field in date"
-msgstr "गतेमा अमान्य दिन फाँट"
+msgstr "मितिमा अवैध दिन फाँट"
 
 #: ../Pyblio/GnomeUI/Editor.py:363
 msgid "Invalid month field in date"
-msgstr "गतेमा अमान्य महिना फाँट"
+msgstr "मितिमा अवैध महिना फाँट"
 
 #: ../Pyblio/GnomeUI/Editor.py:371
 msgid "Invalid year field in date"
-msgstr "गतेमा अमान्य वर्ष फाँट"
+msgstr "मितिमा अवैध वर्ष फाँट"
 
 #. A delete button
 #: ../Pyblio/GnomeUI/Editor.py:419 ../Pyblio/GnomeUI/Search.py:86
@@ -533,7 +545,8 @@ msgid "Select file"
 msgstr "फाइल चयन गर्नुहोस्"
 
 #: ../Pyblio/GnomeUI/Editor.py:549 ../Pyblio/GnomeUI/Fields.py:236
-#: ../glade/config1.glade.h:8 ../glade/fields1.glade.h:6
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:8
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:6
 msgid "Entry type"
 msgstr "प्रविष्टि प्रकार"
 
@@ -552,7 +565,7 @@ msgstr "पछाडि"
 
 #: ../Pyblio/GnomeUI/Editor.py:608
 msgid "Next"
-msgstr "अर्को"
+msgstr "पछिल्लो"
 
 #: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Fields.py:451
 msgid "Mandatory"
@@ -562,7 +575,7 @@ msgstr "अनिवार्यता"
 msgid "Optional"
 msgstr "वैकल्पिक"
 
-#: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Editor.py:1242
+#: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Editor.py:1207
 msgid "Notes"
 msgstr "टिप्पणीहरू"
 
@@ -570,21 +583,21 @@ msgstr "टिप्पणीहरू"
 msgid "Extra"
 msgstr "अतिरिक्त"
 
-#: ../Pyblio/GnomeUI/Editor.py:907
+#: ../Pyblio/GnomeUI/Editor.py:909
 msgid "Invalid key format"
 msgstr "अमान्य कुञ्जी ढाँचा"
 
-#: ../Pyblio/GnomeUI/Editor.py:915
+#: ../Pyblio/GnomeUI/Editor.py:917
 #, python-format
 msgid "Key `%s' already exists"
 msgstr "कुञ्जी`%s' पहिले नै अवस्थित छ"
 
-#: ../Pyblio/GnomeUI/Editor.py:932
+#: ../Pyblio/GnomeUI/Editor.py:934
 #, python-format
 msgid "The `%s' field contains a non Latin-1 symbol"
 msgstr "`%s' फाँटमा ल्याटिन-१ सङ्केत समाहित छ"
 
-#: ../Pyblio/GnomeUI/Editor.py:1002
+#: ../Pyblio/GnomeUI/Editor.py:996
 msgid "Your text contains non Latin-1 symbols"
 msgstr "तपाईँको पाठमा ल्याटिन-१ सङ्केतहरू समाहित छ"
 
@@ -592,27 +605,27 @@ msgstr "तपाईँको पाठमा ल्याटिन-१ सङ�
 msgid "Edit entry"
 msgstr "प्रविष्टि सम्पादन गर्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Editor.py:1037 ../Pyblio/GnomeUI/Editor.py:1108
+#: ../Pyblio/GnomeUI/Editor.py:1037 ../Pyblio/GnomeUI/Editor.py:1102
 msgid "Native Editing"
 msgstr "मौलिक सम्पादन"
 
-#: ../Pyblio/GnomeUI/Editor.py:1137
+#: ../Pyblio/GnomeUI/Editor.py:1125
 msgid "Standard Editing"
 msgstr "उच्चस्तरिय सम्पादन"
 
-#: ../Pyblio/GnomeUI/Editor.py:1264
+#: ../Pyblio/GnomeUI/Editor.py:1229
 msgid "mandatory"
 msgstr "अनिवार्यता"
 
-#: ../Pyblio/GnomeUI/Editor.py:1330
+#: ../Pyblio/GnomeUI/Editor.py:1295
 msgid "Enter text here"
 msgstr "पाठ यहाँ प्रविष्ट गर्नुहोस्"
 
-#: ../Pyblio/GnomeUI/Editor.py:1382
+#: ../Pyblio/GnomeUI/Editor.py:1347
 msgid "New Annotation Name"
 msgstr "नयाँ टिपोट नाम"
 
-#: ../Pyblio/GnomeUI/Editor.py:1388
+#: ../Pyblio/GnomeUI/Editor.py:1353
 msgid "Name of the new annotation:"
 msgstr "नयाँ टिपोटको नाम :"
 
@@ -633,8 +646,8 @@ msgstr "लेखकहरू"
 msgid "Long Text"
 msgstr "लामो पाठ"
 
-#: ../Pyblio/GnomeUI/Fields.py:41 ../glade/config1.glade.h:16
-#: ../glade/fields1.glade.h:21
+#: ../Pyblio/GnomeUI/Fields.py:41 ../Pyblio/GnomeUI/glade/config1.glade.h:16
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:21
 msgid "URL"
 msgstr "यू आर एल"
 
@@ -646,13 +659,13 @@ msgstr "सन्दर्भ"
 msgid "Date"
 msgstr "मिति"
 
-#: ../Pyblio/GnomeUI/Fields.py:124 ../glade/config1.glade.h:11
-#: ../glade/fields1.glade.h:10
+#: ../Pyblio/GnomeUI/Fields.py:124 ../Pyblio/GnomeUI/glade/config1.glade.h:11
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:10
 msgid "Name"
 msgstr "नाम"
 
-#: ../Pyblio/GnomeUI/Fields.py:127 ../glade/config1.glade.h:15
-#: ../glade/fields1.glade.h:20
+#: ../Pyblio/GnomeUI/Fields.py:127 ../Pyblio/GnomeUI/glade/config1.glade.h:15
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:20
 msgid "Type"
 msgstr "प्रकार"
 
@@ -677,7 +690,8 @@ msgstr "<b>%s</b> प्रविष्टि प्रकारसँग सम
 msgid "File"
 msgstr "फाइल"
 
-#: ../Pyblio/GnomeUI/FileSelector.py:76 ../glade/openurl.glade.h:2
+#: ../Pyblio/GnomeUI/FileSelector.py:76
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:2
 msgid "Bibliography type:"
 msgstr "ग्रन्थसूची प्रकार:"
 
@@ -712,7 +726,7 @@ msgstr "[प्रविष्टि प्रकार]"
 msgid "[Key Value]"
 msgstr "[कुञ्जी मान]"
 
-#: ../Pyblio/GnomeUI/Utils.py:194
+#: ../Pyblio/GnomeUI/Utils.py:193
 msgid "The following errors occured:\n"
 msgstr "निम्न त्रुटिहरू रहन गयो:\n"
 
@@ -720,6 +734,268 @@ msgstr "निम्न त्रुटिहरू रहन गयो:\n"
 #, python-format
 msgid "This is Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
 msgstr "यो पाईलियोग्राफी %s [पाइथोन %s, जिटिके %s, पिवाई जिटिके %s]"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:1
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:1
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:1
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:1
+#: ../Pyblio/GnomeUI/glade/search.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:2
+msgid "<b>Entry type</b>"
+msgstr "<b>प्रविष्टि प्रकार</b>"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:3
+msgid "A"
+msgstr "ए"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:4
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:2
+msgid "Association"
+msgstr "संघ"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:5
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:3
+msgid "Datum"
+msgstr "डाटम"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:6
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:4
+msgid "Editor"
+msgstr "सम्पादक"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:7
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:5
+msgid "Entries"
+msgstr "प्रविष्टिहरू"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:9
+msgid "FIELDS DEFINITION"
+msgstr "FIELDS DEFINITION"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:10
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:8
+msgid "Fields "
+msgstr "फाँटहरू "
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:12
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:11
+msgid "Name "
+msgstr "नाम "
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:13
+msgid "Pybliographer Configuration"
+msgstr "पिव्लियोग्राफर कन्फिगरेशन"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:17
+msgid "standard fields"
+msgstr "मानक फाँटहरू"
+
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:7
+msgid "Entry types and field names configuration"
+msgstr "प्रविष्टि प्रकार र फाँट नामहरू कन्फिगरेसन"
+
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:9
+msgid "Information for <b>Article</b> entry type"
+msgstr "<b> सामग्री</b>प्रकारका लागि सूचना"
+
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:12
+msgid ""
+"Select an entry type and specify \n"
+"its associated (mandatory and\n"
+"optional) fields on the next page.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"प्रविष्टि प्रकार चयन गर्नुहोस् र निर्दिष्ट गर्नुहोस्\n"
+"यसको सम्मिलित (आदेश र\n"
+"वैकल्पिक)अर्को पृष्ठमा फाँटहरू।\n"
+"\n"
+"\n"
+"\n"
+
+#: ../Pyblio/GnomeUI/glade/format.glade.h:1
+msgid "Bibliography style:"
+msgstr "ग्रन्थसूची शैली:"
+
+#: ../Pyblio/GnomeUI/glade/format.glade.h:2
+msgid "Format entries"
+msgstr "ढाँचा प्रविष्टिहरू"
+
+#: ../Pyblio/GnomeUI/glade/format.glade.h:3
+msgid "Output file:"
+msgstr "निर्गत फाइल:"
+
+#: ../Pyblio/GnomeUI/glade/format.glade.h:4
+msgid "Output format:"
+msgstr "निर्गत ढाँचा:"
+
+#: ../Pyblio/GnomeUI/glade/format.glade.h:5
+msgid "Save Formatted as"
+msgstr "ढाँचाबद्ध गरिएको रूपमा बचत गर्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/format.glade.h:6
+msgid "Style Selection"
+msgstr "शैली छनौट"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:2
+msgid "Enter your Medline Query"
+msgstr "तपाईँको मेडलाइन प्रश्नहरू प्रविष्ट गर्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:3
+msgid "From:"
+msgstr "बाट:"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:4
+msgid "Limited to:"
+msgstr "मा सिमित:"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:5
+msgid ""
+"Maximum number\n"
+"of results:"
+msgstr ""
+"परिणामहरूको \n"
+"अधिकतम सङ्ख्या :"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:7
+msgid "Medline Query"
+msgstr "मेडलाइन प्रश्नहरू"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:8
+msgid ""
+"Only items \n"
+"ahead of print"
+msgstr ""
+"मात्र चीजहरू\n"
+"मुद्रण अगाडी"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:10
+msgid ""
+"Only items \n"
+"with abstracts"
+msgstr ""
+"मात्र चीजहरू \n"
+"अमुर्तहरू संग"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:12
+msgid ""
+"Search \n"
+"PubMed for:"
+msgstr ""
+"पवमेडका लागि \n"
+"खोजी गर्नुहोस्:"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:14
+msgid ""
+"Starting listing at\n"
+"result number:"
+msgstr ""
+"परिणाम सङ्ख्यामा \n"
+"सुरु भइरहेको :"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:16
+msgid "To:"
+msgstr "लाइ:"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:17
+msgid ""
+"Use the format YYYY/MM/DD\n"
+"Month and day are optional."
+msgstr ""
+"YYYY/MM/DD ढाँचा प्रयोग गर्नुहोस्\n"
+"महिना र दिन हरू वैकल्पिक हुन्।"
+
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:3
+msgid "Enter the location (URI) of the file you would like to open:"
+msgstr "तपाईँले खोल्न चाहेको फाइलको स्थान (URI) प्रविष्ट गर्नुहोस्:"
+
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:4
+msgid "Open Location"
+msgstr "स्थान खोल्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:1
+msgid "Cite"
+msgstr "सिट"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
+msgid "Contents"
+msgstr "सामग्रीहरू"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
+msgid "Open File"
+msgstr "फाइल खोल्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:10
+msgid "Previous Documents"
+msgstr "पहिलेको कागजातहरू"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:11
+msgid "Pybliographer"
+msgstr "पिव्ल्यियोग्राफर"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:13
+msgid "Save File"
+msgstr "फाइल बचत गर्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:14
+msgid "Settings"
+msgstr "सेटिङ"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:15
+msgid "_Add..."
+msgstr "थप्नुहोस्..."
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:16
+msgid "_Delete..."
+msgstr "मेट्नुहोस्..."
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:17
+msgid "_Edit..."
+msgstr "सम्पादन..."
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:18
+msgid "_New"
+msgstr "नयाँ"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:2
+msgid "Close"
+msgstr "बन्द गर्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:3
+msgid "Expert Search"
+msgstr "निपूर्ण खोजी"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:4
+msgid "Field"
+msgstr "फाँट"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:5
+msgid "Pattern"
+msgstr "बाँन्की"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:6
+msgid "Query"
+msgstr "क्वेरी"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:7
+msgid "Search"
+msgstr "खोजी गर्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:8
+msgid "Simple Search"
+msgstr "साधारण खोजी"
+
+#: ../Pyblio/GnomeUI/glade/sort.glade.h:1
+msgid "Select sort criterions"
+msgstr "क्रमबद्ध मापदण्डहरू चयन गर्नुहोस्"
+
+#: ../Pyblio/GnomeUI/glade/sort.glade.h:2
+msgid "Set as default"
+msgstr "पूर्वनिर्धारितको रूपमा सेट गर्नुहोस्"
 
 #: ../Pyblio/LyX.py:37
 #, python-format
@@ -833,260 +1109,6 @@ msgstr "अवैध खोल्ने ट्याग: %s"
 #, python-format
 msgid "invalid closing tag: %s"
 msgstr "अवैध बन्द गर्ने ट्याग: %s"
-
-#: ../glade/config1.glade.h:1 ../glade/fields1.glade.h:1
-#: ../glade/medline.glade.h:1 ../glade/openurl.glade.h:1
-#: ../glade/search.glade.h:1
-msgid "*"
-msgstr "*"
-
-#: ../glade/config1.glade.h:2
-msgid "<b>Entry type</b>"
-msgstr "<b>प्रविष्टि प्रकार</b>"
-
-#: ../glade/config1.glade.h:3
-msgid "A"
-msgstr "ए"
-
-#: ../glade/config1.glade.h:4 ../glade/fields1.glade.h:2
-msgid "Association"
-msgstr "संघ"
-
-#: ../glade/config1.glade.h:5 ../glade/fields1.glade.h:3
-msgid "Datum"
-msgstr "डाटम"
-
-#: ../glade/config1.glade.h:6 ../glade/fields1.glade.h:4
-msgid "Editor"
-msgstr "सम्पादक"
-
-#: ../glade/config1.glade.h:7 ../glade/fields1.glade.h:5
-msgid "Entries"
-msgstr "प्रविष्टिहरू"
-
-#: ../glade/config1.glade.h:9
-msgid "FIELDS DEFINITION"
-msgstr "FIELDS DEFINITION"
-
-#: ../glade/config1.glade.h:10 ../glade/fields1.glade.h:8
-msgid "Fields "
-msgstr "फाँटहरू "
-
-#: ../glade/config1.glade.h:12 ../glade/fields1.glade.h:11
-msgid "Name "
-msgstr "नाम "
-
-#: ../glade/config1.glade.h:13
-msgid "Pybliographer Configuration"
-msgstr "पिव्लियोग्राफर कन्फिगरेशन"
-
-#: ../glade/config1.glade.h:17
-msgid "standard fields"
-msgstr "मानक फाँटहरू"
-
-#: ../glade/fields1.glade.h:7
-msgid "Entry types and field names configuration"
-msgstr "प्रविष्टि प्रकार र फाँट नामहरू कन्फिगरेसन"
-
-#: ../glade/fields1.glade.h:9
-msgid "Information for <b>Article</b> entry type"
-msgstr "<b> सामग्री</b>प्रकारका लागि सूचना"
-
-#: ../glade/fields1.glade.h:12
-msgid ""
-"Select an entry type and specify \n"
-"its associated (mandatory and\n"
-"optional) fields on the next page.\n"
-"\n"
-"\n"
-"\n"
-msgstr ""
-"प्रविष्टि प्रकार चयन गर्नुहोस् र निर्दिष्ट गर्नुहोस्\n"
-"यसको सम्मिलित (आदेश र\n"
-"वैकल्पिक)अर्को पृष्ठमा फाँटहरू।\n"
-"\n"
-"\n"
-"\n"
-
-#: ../glade/format.glade.h:1
-msgid "Bibliography style:"
-msgstr "ग्रन्थसूची शैली:"
-
-#: ../glade/format.glade.h:2
-msgid "Format entries"
-msgstr "ढाँचा प्रविष्टिहरू"
-
-#: ../glade/format.glade.h:3
-msgid "Output file:"
-msgstr "निर्गत फाइल:"
-
-#: ../glade/format.glade.h:4
-msgid "Output format:"
-msgstr "निर्गत ढाँचा:"
-
-#: ../glade/format.glade.h:5
-msgid "Save Formatted as"
-msgstr "ढाँचाबद्ध गरिएको रूपमा बचत गर्नुहोस्"
-
-#: ../glade/format.glade.h:6
-msgid "Style Selection"
-msgstr "शैली छनौट"
-
-#: ../glade/medline.glade.h:2
-msgid "Enter your Medline Query"
-msgstr "तपाईँको मेडलाइन प्रश्नहरू प्रविष्ट गर्नुहोस्"
-
-#: ../glade/medline.glade.h:3
-msgid "From:"
-msgstr "बाट:"
-
-#: ../glade/medline.glade.h:4
-msgid "Limited to:"
-msgstr "मा सिमित:"
-
-#: ../glade/medline.glade.h:5
-msgid ""
-"Maximum number\n"
-"of results:"
-msgstr ""
-"परिणामहरूको \n"
-"अधिकतम सङ्ख्या :"
-
-#: ../glade/medline.glade.h:7
-msgid "Medline Query"
-msgstr "मेडलाइन प्रश्नहरू"
-
-#: ../glade/medline.glade.h:8
-msgid ""
-"Only items \n"
-"ahead of print"
-msgstr ""
-"मात्र चीजहरू\n"
-"मुद्रण अगाडी"
-
-#: ../glade/medline.glade.h:10
-msgid ""
-"Only items \n"
-"with abstracts"
-msgstr ""
-"मात्र चीजहरू \n"
-"अमुर्तहरू संग"
-
-#: ../glade/medline.glade.h:12
-msgid ""
-"Search \n"
-"PubMed for:"
-msgstr ""
-"पवमेडका लागि \n"
-"खोजी गर्नुहोस्:"
-
-#: ../glade/medline.glade.h:14
-msgid ""
-"Starting listing at\n"
-"result number:"
-msgstr ""
-"परिणाम सङ्ख्यामा \n"
-"सुरु भइरहेको :"
-
-#: ../glade/medline.glade.h:16
-msgid "To:"
-msgstr "लाइ:"
-
-#: ../glade/medline.glade.h:17
-msgid ""
-"Use the format YYYY/MM/DD\n"
-"Month and day are optional."
-msgstr ""
-"YYYY/MM/DD ढाँचा प्रयोग गर्नुहोस्\n"
-"महिना र दिन हरू वैकल्पिक हुन्।"
-
-#: ../glade/openurl.glade.h:3
-msgid "Enter the location (URI) of the file you would like to open:"
-msgstr "तपाईँले खोल्न चाहेको फाइलको स्थान (URI) प्रविष्ट गर्नुहोस्:"
-
-#: ../glade/openurl.glade.h:4
-msgid "Open Location"
-msgstr "स्थान खोल्नुहोस्"
-
-#: ../glade/pyblio.glade.in.h:1
-msgid "Cite"
-msgstr "सिट"
-
-#: ../glade/pyblio.glade.in.h:3
-msgid "Contents"
-msgstr "सामग्रीहरू"
-
-#: ../glade/pyblio.glade.in.h:9
-msgid "Open File"
-msgstr "फाइल खोल्नुहोस्"
-
-#: ../glade/pyblio.glade.in.h:10
-msgid "Previous Documents"
-msgstr "पहिलेको कागजातहरू"
-
-#: ../glade/pyblio.glade.in.h:11
-msgid "Pybliographer"
-msgstr "पिव्ल्यियोग्राफर"
-
-#: ../glade/pyblio.glade.in.h:13
-msgid "Save File"
-msgstr "फाइल बचत गर्नुहोस्"
-
-#: ../glade/pyblio.glade.in.h:14
-msgid "Settings"
-msgstr "सेटिङ"
-
-#: ../glade/pyblio.glade.in.h:15
-msgid "_Add..."
-msgstr "थप्नुहोस्..."
-
-#: ../glade/pyblio.glade.in.h:16
-msgid "_Delete..."
-msgstr "मेट्नुहोस्..."
-
-#: ../glade/pyblio.glade.in.h:17
-msgid "_Edit..."
-msgstr "सम्पादन..."
-
-#: ../glade/pyblio.glade.in.h:18
-msgid "_New"
-msgstr "नयाँ"
-
-#: ../glade/search.glade.h:2
-msgid "Close"
-msgstr "बन्द गर्नुहोस्"
-
-#: ../glade/search.glade.h:3
-msgid "Expert Search"
-msgstr "निपूर्ण खोजी"
-
-#: ../glade/search.glade.h:4
-msgid "Field"
-msgstr "फाँट"
-
-#: ../glade/search.glade.h:5
-msgid "Pattern"
-msgstr "बाँन्की"
-
-#: ../glade/search.glade.h:6
-msgid "Query"
-msgstr "क्वेरी"
-
-#: ../glade/search.glade.h:7
-msgid "Search"
-msgstr "खोजी गर्नुहोस्"
-
-#: ../glade/search.glade.h:8
-msgid "Simple Search"
-msgstr "साधारण खोजी"
-
-#: ../glade/sort.glade.h:1
-msgid "Select sort criterions"
-msgstr "क्रमबद्ध मापदण्डहरू चयन गर्नुहोस्"
-
-#: ../glade/sort.glade.h:2
-msgid "Set as default"
-msgstr "पूर्वनिर्धारितको रूपमा सेट गर्नुहोस्"
 
 #: ../pybliographer.py:43
 #, python-format

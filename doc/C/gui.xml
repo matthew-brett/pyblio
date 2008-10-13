@@ -447,15 +447,13 @@
     <title>Using &pyc; with <application>LyX</application></title>
     
     <para>It  is possible  to directly  use &pyb;  in order  to insert
-      bibliographic references  into LyX. To  do so, one first  has to
-      start the LyX  <emphasis>server</emphasis>. In the configuration
-      file  <filename>~/.lyx/lyxrc</filename>, add the  following line
-      before starting LyX:</para>
-
-    <programlisting>
-      \serverpipe "~/.lyx/lyxpipe"
-    </programlisting>
-
+      bibliographic references  into LyX. It is done through the LyX
+      <emphasis>server</emphasis>. The path of the LyX server pipe can
+      be defined in the <menuchoice><guimenu>Tools</guimenu>
+      <guimenuitem>Preferences</guimenuitem></menuchoice> dialog of LyX.
+      The same path should be given in &pyb;'s settings 
+      (the default value is ~/.lyx/lyxpipe).</para>
+      
     <para>Then,  in &pyc;,  it is  possible to  select one  or several
       entries and insert their references into a running LyX simply by
       clicking  the <guibutton>Cite</guibutton>  toolbar button,  or 

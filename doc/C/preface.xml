@@ -86,24 +86,24 @@
             <term>Bugfixes</term>
             <listitem>
               <para>
-                Fixed multiple creation of entries, fixed bug related to 
-                creating a new field.
+                Fixed an escaping bug and a bug related to native editing.
               </para>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>Config loader</term>
+            <term>New configure option</term>
             <listitem>
               <para>
-                Improvements of config loader.
+                Added a --disable-depchecks configure option to let packagers
+                avoid failing checks when running under fakeroot.
               </para>
             </listitem>
           </varlistentry>
           <varlistentry>
-            <term>Translation</term>
+            <term>Documentation and Translation</term>
             <listitem>
               <para>
-                Updated translations.
+                Updated documentation and translations.
               </para>
             </listitem>
           </varlistentry>

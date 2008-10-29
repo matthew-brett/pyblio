@@ -109,7 +109,8 @@ def list_entries (file):
             # we match a new citation
             match = citation_re.search (line)
             if match:
-                citations += [ref.strip() for ref in match.split(',')]
+                refs = match.group(1)
+                citations += [ref.strip() for ref in refs.split(',')]
                 continue
 	
             # we have to enter an additional .aux file

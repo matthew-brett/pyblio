@@ -35,36 +35,45 @@ EXTRA_DIST =  \
 	bibtex.bib		\
 	bibtex.text		\
 	broken.bib		\
+	compact			\
 	compact.aux		\
 	compact.bib		\
+	convert			\
 	document.aux		\
 	document.bbl.ref	\
 	document.tex		\
+	format			\
+	format2			\
+	format2.html		\
+	format2.latex		\
+	format2.raw		\
+	format2.text		\
+	format2.textau		\
+	format2.textnum		\
 	format.html		\
 	format.latex		\
 	format.py		\
 	format.raw		\
 	format.text		\
+	import-export		\
 	import-export.py	\
-	reorder.py		\
-	medline.med		\
 	medline.bib		\
-	preamble.bib		\
-	pubmed.med		\
-	pubmed.bib		\
+	medline.med		\
 	ovid.ovid		\
-	refer.refer		\
-	format2.html		\
-	format2.raw		\
-	format2.latex		\
-	format2.text		\
-	format2.textau		\
-	format2.textnum		\
+	preamble.bib		\
+	pubmed.bib		\
+	pubmed.med		\
+	pybformat		\
+	pybtex			\
+	pybtext			\
 	pybtext.abbrvau		\
 	pybtext.abbrvbib	\
 	pybtext.abbrvnum	\
 	pybtext.Alpha		\
 	pybtext.bib		\
 	pybtext.txt		\
-	testing.sh
+	refer.refer		\
+	reorder.py		\
+	testing.sh		\
+	test-pybcheck
 

@@ -1,4 +1,4 @@
-#    -*- coding: 'iso8859-1' -*-
+#    -*- coding: iso-8859-1 -*-
 data = ["""Authors
   Muller S.  Garda P.  Muller JD.  Cansi Y.
 Title

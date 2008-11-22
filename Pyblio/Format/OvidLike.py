@@ -268,6 +268,7 @@ def write_entry (output, entry, counter, mapping):
     output.write ('<%d>\n' % counter)
 
     keys = entry.keys()
+    keys.sort()
 
     write_source_field (output, entry, keys)
      
@@ -312,12 +313,18 @@ def write_keyword_field (output, value):
         output.write('\n')
 
 
-def write_author_field (output, value):
-    auths = [ '%s %s' % (auth.last or '', auth.first or '')
-              for auth in value]
-    output.write ('  ')
-    output.write ('  '.join (auths))
-    output.write ('\n')
+def write_author_field(output, value):
+    # Initials are grouped together in Ovid (ie I. E. becomes IE.)
+    auths = []
+    for auth in auths:
+        parts = [auth.last]
+        if auth.first:
+            parts.append(''.join(word[0].upper()
+                                 for word in auth.first.split(' ')) + '.')
+        auths.append(' '.join(parts))
+    output.write('  ')
+    output.write('  '.join (auths))
+    output.write('\n')
 
 
 def write_source_field (output, entry, keys):

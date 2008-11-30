@@ -86,7 +86,8 @@
             <term>Bugfixes</term>
             <listitem>
               <para>
-                Fixed an escaping bug and a bug related to native editing.
+                Fixed an escaping bug and bugs related to native editing,
+                latexutils and the Ovid writer.
               </para>
             </listitem>
           </varlistentry>

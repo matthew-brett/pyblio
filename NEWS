@@ -1,7 +1,9 @@
 -*- text -*-
 
-New in 1.2.12 - 2008-10-07
+New in 1.2.12 - 2008-11-26
 
+       * Fixed the Ovid writer
+       * Fixed a bug in latexutils
        * Fixed an escaping bug
        * Added a --disable-depchecks configure option to let packagers
          avoid failing checks when running under fakeroot (gnomevfs

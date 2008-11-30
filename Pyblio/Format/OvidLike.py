@@ -316,7 +316,7 @@ def write_keyword_field (output, value):
 def write_author_field(output, value):
     # Initials are grouped together in Ovid (ie I. E. becomes IE.)
     auths = []
-    for auth in auths:
+    for auth in value:
         parts = [auth.last]
         if auth.first:
             parts.append(''.join(word[0].upper()

@@ -18,42 +18,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 # 
 
-LANGUAGES = 		\
-	ar		\
-	az 		\
-	ca		\
-	cs 		\
-	da 		\
-	de 		\
-	dz		\
-	el		\
-	en_CA		\
-	en_GB		\
-	es		\
-	fi 		\
-	fr 		\
-	hr		\
-	hu 		\
-	it 		\
-	ja 		\
-	nb		\
-	ne		\
-	nl		\
-	oc		\
-	pa		\
-	pt_BR 		\
-	pt		\
-	ru 		\
-	rw		\
-	sk 		\
-	sr@Latn 	\
-	sr 		\
-	sv 		\
-	tr 		\
-	uk		\
-	vi		\
-	zh_CN
-
+LANGUAGES = $(shell grep -v '^\#' LINGUAS | tr '\n' ' ')
 
 EXTRA_DIST = $(LANGUAGES:%=%.po)
 
@@ -63,7 +28,7 @@ localedir = $(datadir)/locale
 
 all: $(MO)
 
-%.mo: %.po
+.po.mo:
 	msgfmt $< -o $@
 
 install-data-hook: all
@@ -85,3 +50,6 @@ check:
 	for f in $(LANGUAGES) ; do \
 	  echo "$$f: "`msgfmt --statistics $$f.po 2>&1` ; \
 	done
+
+SUFFIXES = .po .mo
+
